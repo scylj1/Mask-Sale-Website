@@ -1,0 +1,194 @@
+body {
+    font-family: Times;
+    background-image: url("background1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#page {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding-top:20px;
+    padding-bottom:15px;
+    font-weight:bold;
+    border: 1.5px solid black;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom:30px;
+    border-bottom: 1.5px solid black;
+}
+
+section > h2{
+    font-size:25px;
+}
+
+#abnormal {
+    width: 960px;
+    margin: 0 auto;
+    line-height:15px;
+    font-size: 20px;
+}
+
+
+#abnormal > div{
+    font-size: 20px;
+    margin-left: 50px;
+    line-height:15px;
+}
+
+#delete {
+    font-family:times;
+    font-size: 18px;
+    font-weight: bold;
+    color:blue;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 30px; 
+    border:0; 
+}
+
+#statistic {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ 
+#statistic>div {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#statistic>div>div {
+    width: 480px;
+    line-height:15px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#statistic>div>div>h2{
+    font-size:23px;
+}
+
+#statistic>div>div>div{
+    font-weight:bold;
+    line-height:20px;
+}
+ 
+td > p{ 
+    padding:0px; 
+    margin:0px;
+    margin-left:30px;
+} 
+
+td > div{ 
+    background-color:green;
+    width:50px;
+    margin-left:30px;
+}
+
+#assign {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#assign>div {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#assign>div>div {
+    width: 480px;
+    height: 400px;
+    margin-top: 20px;
+}
+ 
+#assign>div>div:first-child {
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+
+#subtitle {
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left:50px;
+    margin-right:10px;
+}
+
+.input {
+    font-size: 16px;
+    font-family: times;
+    font-weight:bold;
+    width: 120px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    margin-left:20px;
+    height: 25px;
+    background-color:rgba(235, 235, 235, 0.1);
+}
+
+.prompt {
+    margin-left: 50px;
+    font-size: 20px;
+    line-height:30px;
+}
+
+#users {
+    text-align: left;
+    width: 360px;
+    height: 370px;
+    margin-left: 150px;
+    font-size: 20px;
+    line-height:15px;
+}
+ 
+#users p:first-child {
+    font-size: 25px;
+}
+
+#condition {
+    width: 960px;  
+    margin: 0 auto;
+    line-height:15px;
+    font-size: 20px;
+}
+
+#condition > div {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+
+#confirm {
+    height: 30px;
+    width: 80px;
+    margin-left: 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+ 
+#bottom {
+    width: 960px;
+    margin: 0 auto;
+    line-height:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+#back{
+    font-size: 20px;
+    color:blue;
+}
+

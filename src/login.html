@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Log in </title>
+    <link rel="stylesheet" type="text/css" href="login.css"/>
+    <script type="text/javascript" src="login.js"></script>
+    </head>
+    <body>
+    <div id = "page">
+        <h2> Face Masks Sale Management Website </h2>
+        <form id = "loginform" action = "login.php" method = "post">
+
+            <p><label class = "prompt"> Username: </label><input type="text" id="uname" name="uname" class = "input"></p>            
+            <p><label class = "prompt"> Password: </label><input type="password" id="upwd" name="upwd" class = "input"></p>
+
+            <div id = "button">
+                <input type="submit" value="Log in" id = "login" onclick = "checkform()">        
+                <a href = "register.html" id = "register"> Register </a>
+            </div>
+        </form>
+    </div>
+    </body>
+</html>

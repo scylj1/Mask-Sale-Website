@@ -1,0 +1,169 @@
+body {
+    font-family: Times;
+    background-image: url("background1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#page {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:15px;
+    font-weight:bold;
+    border: 1.5px solid black;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1.5px solid black;
+}
+
+#makeorder {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom:40px;
+}
+
+#pastorder {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#makeorder>div {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#makeorder>div>div {
+    width: 500px;
+    margin-top: 70px;
+}
+ 
+#makeorder>div>div:first-child {
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+ 
+.input {
+    font-size: 16px;
+    font-family: times;
+    font-weight:bold;
+    width: 200px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    margin-left:130px;
+    margin-top: 10px;
+    height: 25px;
+    background-color:rgba(235, 235, 235, 0.1);
+}
+
+.input2 {
+    font-size: 16px;
+    font-family: times;
+    font-weight:bold;
+    width: 200px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    margin-left:50px;
+    margin-top: 30px;
+    height: 25px;
+    background-color:rgba(235, 235, 235, 0.1);
+}
+
+#make {
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#subtitle {
+    height: 70px;
+    line-height: 70px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.prompt {
+    height: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.repid {
+    margin-left: 70px;
+    font-size: 18px;
+    line-height: 1px;
+}
+ 
+ 
+#submit {
+    height: 40px;
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 300px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align:center;
+}
+
+#confirm {
+    height: 30px;
+    width: 80px;
+    margin-left: 50px;
+    font-size: 18px;
+    background-color:black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align:center;
+}
+
+#person {
+    text-align: left;
+    margin-left: 150px;
+    font-size: 20px;
+}
+ 
+#person p:first-child {
+    font-size: 40px;
+}
+
+#seperate {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#seperate>div {
+    width: 1000px;
+    margin-top: 30px;
+}
+
+#seperate>div>div {
+    text-align: left;
+    width: 360px;
+    margin-top:5px;
+    margin-bottom:30px;
+    padding-left:20px;
+    font-size: 20px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+ 
+#back {
+    font-size: 20px;
+    color: blue;
+}
